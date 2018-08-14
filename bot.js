@@ -8,8 +8,8 @@ client.on("ready", () => {
 var prefix = config.prefix;
 
 client.on("message", (message) => {
-  if (message.content.startsWith(prefix + "ping")) {
-    message.channel.send("pong!");
+  if (message.content.startsWith(prefix + "que hay pa comer")) {
+    message.channel.send("PATATAS FRITAS!!");
   } else
   if (message.content.startsWith(prefix +"servidores")){
     message.channel.send({embed: {
