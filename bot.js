@@ -9,7 +9,7 @@ var prefix = config.prefix;
 
 client.on("message", (message) => {
    if (message.content.startsWith(prefix + "help")) {
-    message.channel.send(":fries: ");
+    message.channel.send("Pon -comandos para ver los comandos disponibles y si neccesitas ayuda contacta con un @Dueñon ");
   } else
   if (message.content.startsWith(prefix + "dame")) {
     message.channel.send(":fries: ");
