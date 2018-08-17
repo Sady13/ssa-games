@@ -37,6 +37,11 @@ client.on("message", (message) => {
       color: 3447003,
       description: "TOMA MAS PATATASSSSSSSS!!!!!!!!!!!!! :fries: :fries: :fries: :fries: :fries: :fries: :fries: :fries: :fries: :fries: :fries: :fries: "
     }});
+           if (message.content.startsWith(prefix +"-no me gusta")){
+    message.channel.send({embed: {
+      color: 3447003,
+      description: "Comete lo que te he preparado o te quedas sin play :v"
+    }});
 }
 });
 client.login(config.token);
