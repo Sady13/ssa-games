@@ -9,10 +9,10 @@ var prefix = config.prefix;
 
 client.on("message", (message) => {
   if (message.content.startsWith("holatontoxd")) {
-    message.channel.send("!warn @-•̶๖̶̶̶ζ͜͡ ELℭ𝔥𝔦𝔠𝔬ᴰᵉ𝐹𝓊𝑒𝑔𝑜👑 El mas malote");
+    message.channel.send("!warn @-•̶๖̶̶̶ζ͜͡ 
   } else
-  if (message.content.startsWith("!warn @-•̶๖̶̶̶ζ͜͡ ELℭ𝔥𝔦𝔠𝔬ᴰᵉ𝐹𝓊𝑒𝑔𝑜👑 El mas malote")) {
-    message.channel.send("!warn @-•̶๖̶̶̶ζ͜͡ ELℭ𝔥𝔦𝔠𝔬ᴰᵉ𝐹𝓊𝑒𝑔𝑜👑 El mas malote");
+  if (message.content.startsWith("")) {
+    message.channel.send("");
   } else
       if (message.content.startsWith(prefix +"help")){
     message.channel.send({embed: {
