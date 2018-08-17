@@ -29,7 +29,7 @@ client.on("message", (message) => {
      if (message.content.startsWith(prefix +"comandos")){
     message.channel.send({embed: {
       color: 3447003,
-      description: "julian la chupa"
+      description: "/ -dame / -que hay pa comer/ -help / -servidores /"
     }});
 }
 });
