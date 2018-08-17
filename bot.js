@@ -35,7 +35,7 @@ client.on("message", (message) => {
         if (message.content.startsWith(prefix +"quiero mas")){
     message.channel.send({embed: {
       color: 3447003,
-      description: "TOMA MAS PATATASSSSSSSS!!!!!!!!!!!!!"
+      description: "TOMA MAS PATATASSSSSSSS!!!!!!!!!!!!! :fries: :fries: :fries: :fries: :fries: :fries: :fries: :fries: :fries: :fries: :fries: :fries: "
     }});
 }
 });
