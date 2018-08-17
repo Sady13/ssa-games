@@ -8,11 +8,11 @@ client.on("ready", () => {
 var prefix = config.prefix;
 
 client.on("message", (message) => {
-  if (message.content.startsWith(prefix + "dame")) {
-    message.channel.send(":fries: ");
+  if (message.content.startsWith("hola")) {
+    message.channel.send("fuck you");
   } else
-  if (message.content.startsWith(prefix + "que hay pa comer")) {
-    message.channel.send("PATATAS FRITAS!!");
+  if (message.content.startsWith("fuck you")) {
+    message.channel.send("fuck you");
   } else
       if (message.content.startsWith(prefix +"help")){
     message.channel.send({embed: {
