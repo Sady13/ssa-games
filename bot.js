@@ -14,8 +14,11 @@ client.on("message", (message) => {
   if (message.content.startsWith(prefix + "que hay pa comer")) {
     message.channel.send("PATATAS FRITAS!!");
   } else
-     if (message.content.startsWith(prefix + "help")) {
-    message.channel.send("Pon -comandos para ver los comandos disponibles y si neccesitas ayuda contacta con un @Dueñon ");
+      if (message.content.startsWith(prefix +"help")){
+    message.channel.send({embed: {
+      color: 3447003,
+      description: "Pon -comandos para ver los comandos disponibles y si neccesitas ayuda contacta con un @Dueño  "
+    }});
   } else
   if (message.content.startsWith(prefix +"servidores")){
     message.channel.send({embed: {
