@@ -25,6 +25,12 @@ client.on("message", (message) => {
       color: 3447003,
       description: "**NovumLife** servidor de Rolplay unturned https://discord.gg/8XkUJ3N ¡UNETE!  "
     }});
+     } else
+     if (message.content.startsWith(prefix +"comandos")){
+    message.channel.send({embed: {
+      color: 3447003,
+      description: "julian la chupa"
+    }});
 }
 });
 client.login(config.token);
