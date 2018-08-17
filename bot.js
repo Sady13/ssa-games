@@ -17,7 +17,7 @@ client.on("message", (message) => {
       if (message.content.startsWith(prefix +"help")){
     message.channel.send({embed: {
       color: 3447003,
-      description: "Pon -comandos para ver los comandos disponibles y si neccesitas ayuda contacta con un @Dueño  "
+      description: "Pon **-comandos** para ver los comandos disponibles y si neccesitas ayuda contacta con un **@Dueño**  "
     }});
   } else
   if (message.content.startsWith(prefix +"servidores")){
