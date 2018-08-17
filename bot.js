@@ -8,6 +8,9 @@ client.on("ready", () => {
 var prefix = config.prefix;
 
 client.on("message", (message) => {
+   if (message.content.startsWith(prefix + "dame")) {
+    message.channel.send(":fries: ");
+  } else
   if (message.content.startsWith(prefix + "dame")) {
     message.channel.send(":fries: ");
   } else
@@ -17,7 +20,7 @@ client.on("message", (message) => {
   if (message.content.startsWith(prefix +"servidores")){
     message.channel.send({embed: {
       color: 3447003,
-      description: "**NovumLife** servidor de Rolplay unturned https://discord.gg/DwDbJj ¡UNETE!  "
+      description: "**NovumLife** servidor de Rolplay unturned https://discord.gg/8XkUJ3N ¡UNETE!  "
     }});
 }
 });
