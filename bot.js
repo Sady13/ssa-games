@@ -29,7 +29,13 @@ client.on("message", (message) => {
      if (message.content.startsWith(prefix +"comandos")){
     message.channel.send({embed: {
       color: 3447003,
-      description: "/ -dame / -que hay pa comer/ -help / -servidores /"
+      description: "/ -dame / -que hay pa comer/ -help / -servidores / -quiero mas"
+    }});
+      } else
+        if (message.content.startsWith(prefix +"quiero mas")){
+    message.channel.send({embed: {
+      color: 3447003,
+      description: "TOMA MAS PATATASSSSSSSS!!!!!!!!!!!!!"
     }});
 }
 });
