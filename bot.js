@@ -5,8 +5,8 @@ client.on("ready", () => {
    console.log("Estoy listo!");
 });
 client.on("message", (message) => {
-  if (message.content.startsWith("!ip")) {
-    message.channel.send("servidor cerrado.");
+  if (message.content.startsWith("ping")) {
+    message.channel.send("pong!");
   }
 });
-client.login("NDc3NDQxMTc5Njc2NTczNzA3.DmmPHw.12JRoQ9okwJyr90BHDznMduj5ag");       
+client.login("TokenSecreto");   
