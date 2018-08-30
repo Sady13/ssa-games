@@ -9,4 +9,4 @@ client.on("message", (message) => {
     message.channel.send("servidor cerrado.");
   }
 });
-client.login("TokenSecreto");       
+client.login("NDc3NDQxMTc5Njc2NTczNzA3.DmmPHw.12JRoQ9okwJyr90BHDznMduj5ag");       
