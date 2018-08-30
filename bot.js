@@ -8,40 +8,16 @@ client.on("ready", () => {
 var prefix = config.prefix;
 
 client.on("message", (message) => {
-  if (message.content.startsWith("holatontoxd")) {
-    message.channel.send("!warn @-•̶๖̶̶̶ζ͜͡ 
-  } else
-  if (message.content.startsWith("")) {
-    message.channel.send("");
-  } else
-      if (message.content.startsWith(prefix +"help")){
+      if (message.content.startsWith(prefix +"ip")){
     message.channel.send({embed: {
       color: 3447003,
-      description: "Pon **-comandos** para ver los comandos disponibles y si necesitas ayuda contacta con un **@Dueño**  "
+      description: "el servidor esta cerrado."
     }});
   } else
-  if (message.content.startsWith(prefix +"servidores")){
+  if (message.content.startsWith(prefix +"port")){
     message.channel.send({embed: {
       color: 3447003,
-      description: "**NovumLife** servidor de Rolplay unturned https://discord.gg/8XkUJ3N ¡UNETE!  "
-    }});
-     } else
-     if (message.content.startsWith(prefix +"comandos")){
-    message.channel.send({embed: {
-      color: 3447003,
-      description: "/ -dame / -que hay pa comer/ -help / -servidores / -quiero mas"
-    }});
-      } else
-        if (message.content.startsWith(prefix +"quiero mas")){
-    message.channel.send({embed: {
-      color: 3447003,
-      description: "TOMA MAS PATATASSSSSSSS!!!!!!!!!!!!! :fries: :fries: :fries: :fries: :fries: :fries: :fries: :fries: :fries: :fries: :fries: :fries: "
-    }});
-      } else
-        if (message.content.startsWith(prefix +"no me gusta")){
-    message.channel.send({embed: {
-      color: 3447003,
-      description: "Comete lo que te he preparado o te quedas sin play :v"
+      description: "el servidor esta cerrado."
     }});
 }
 });
